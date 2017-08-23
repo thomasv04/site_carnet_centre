@@ -1,0 +1,278 @@
+html{
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding:0;
+    background:linear-gradient(cornflowerblue, cadetblue) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Raleway;
+    color:
+}
+
+.titre{
+    text-align: center;
+    font-size: 10vw;
+    color: white;
+    font-weight: 900;
+}
+
+.titre span{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.page_menu ul {
+    margin: auto;
+    padding : 0;
+    width: 90%;
+    height: 100%;
+    list-style-type : none;
+}
+
+.page_menu ul li {
+    margin-bottom:20px;
+    width: 100%;
+    text-align: center;
+    height: 14vh;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.page_menu ul li a{
+    display: block;
+    text-decoration: none;
+    color:white;
+    font-size: 3.5vw;
+    line-height: 14vh;
+}
+
+/* LISTE ENFANTS */
+
+.statut_enfant{
+    margin:auto;
+    height: 9vh;
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 90%;
+    transition: width 0.5s;
+
+
+}
+
+.statut_enfant h1{
+    text-align: center;
+    font-size: 6vw;
+    line-height: 9vh;
+    color:white;
+    transition: font-size 0.5s;
+}
+
+.statut_enfant span{
+    margin-left: 25px;
+    font-size: 4.5vw;
+    transition: font-size 0.5s;
+}
+
+.arrow{
+    position: absolute;
+    left:0px;
+    top:20px;
+    width: 20vw;
+}
+
+/* LISTES ABSENTS */
+
+.fin_semaine{
+    height: 30px;
+    border-bottom: 5px dashed white;
+}
+
+.done{
+    background-image: url(../img/done.png) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+
+
+
+
+/* ABSENTS */
+
+.select{
+    margin:auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 85%;
+    transition: all 0.5s;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.select h1{
+    font-size: 5vw;
+    transition: font-size 0.5s;
+}
+
+.select span{
+    font-size: 3.5vw;
+    transition: font-size 0.5s;
+}
+
+.button{
+    position:fixed;
+    top:90%;
+    right:5%;
+    background-color: rgba(0,70,90,1);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    border: none;
+    color:white;
+    font-size: 5vh;
+    width: 8vh;
+    height: 8vh;
+    border-radius: 50%;
+
+}
+
+.info{
+    position: absolute;
+    background-color: rgba(0,70,90,1);
+    color:white;
+    margin:0;
+    padding:0;
+    text-align: center;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 5vw;
+    font-size: 3.5vw;
+    line-height: 5vw;
+
+
+
+
+}
+
+/*     */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ACTIVITE*/
+
+.activite{
+    margin:auto;
+    text-align: center;
+    color:white;
+    margin-top:100px;
+    width: 90%
+
+}
+
+.activite h2{
+    font-size: 6vw;
+    margin-top:15px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.activite p{
+    font-size: 4.5vw;
+    background-color: rgba(255, 255, 255, 0.15);
+    padding-top:40px;
+    padding-bottom:40px;
+    max-height: 400px;
+    overflow: auto;
+}
+
+.activite .matin{
+    display: block;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.activite .aprem{
+    display: block;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+}
+
+.activite .endroit{
+    text-align: right;
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+
+/* LISTE NOTES */
+
+.liste{
+    margin:auto;
+    height: 9vh;
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 90%;
+}
+
+.liste h1{
+    text-align: center;
+    font-size: 6vw;
+    line-height: 9vh;
+    color:white;
+}
+
+.liste a {
+    text-decoration: none;
+}
+
+.arrow2{
+    position: absolute;
+    width:9vh;
+    right:5%;
+
+}
+/*NOTES*/
+
+.notes{
+    display: block;
+    margin:auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    color:white;
+    width: 90%;
+    max-width: 90%;
+    height: 79vh;
+    max-height: 79vh;
+    font-size: 4.5vw;
+    border:none;
+    resize:none;
+    padding:15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
